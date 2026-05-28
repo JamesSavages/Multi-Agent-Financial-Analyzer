@@ -12,12 +12,15 @@ A math-driven agent that evaluates companies strictly on hard data, balance shee
 Tools: Firecrawl semantic web scraping.  
 Capabilities: Scrapes the full markdown content of recent news and analyst ratings to understand the market "narrative". It synthesizes this narrative with the Quant's hard numbers to formulate a final, reasoned 'Buy', 'Sell', or 'Hold' recommendation.  
 
-## 🛠️ Tech Stack AI Orchestration: CrewAI, LangChain, LangSmithBackend: FastAPI, Python (managed via uv)Frontend: StreamlitData Sources: Yahoo Finance API (yfinance), Firecrawl APICloud Infrastructure: Azure Blob Storage (Document Artifacts), Azure PostgreSQL (Structured Metadata)
+## 🛠️ Tech Stack AI Orchestration: 
+CrewAI, LangChain, LangSmithBackend: FastAPI, Python (managed via uv)Frontend: StreamlitData Sources: Yahoo Finance API (yfinance), Firecrawl APICloud Infrastructure: Azure Blob Storage (Document Artifacts), Azure PostgreSQL (Structured Metadata)
 
-## ⚙️ Installation & Setup: To run this system locally, you will need to set up the environment and run both the FastAPI backend and the Streamlit frontend.1. Clone the Repository:
+## ⚙️ Installation & Setup: 
+To run this system locally, you will need to set up the environment and run both the FastAPI backend and the Streamlit frontend.1. Clone the Repository:
 
-`git clone https://github.com/YourUsername/Multi-Agent-Financial-Analyzer.git
-cd Multi-Agent-Financial-Analyzer`
+`git clone https://github.com/YourUsername/Multi-Agent-Financial-Analyzer.git`
+
+`cd Multi-Agent-Financial-Analyzer`
 
 # 2. Environment Configuration
 Create a .env file in the root directory and add the following required API keys and connection strings:
