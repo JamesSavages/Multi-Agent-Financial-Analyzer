@@ -10,7 +10,7 @@ A math-driven agent that evaluates companies strictly on hard data, balance shee
 Tools: yfinance integration.  
 Capabilities: Fetches fundamental metrics (P/E, EPS, Beta, Market Cap) and calculates relative historical performance against the S&P 500 (SPY).  
 
-### 2. The Chief Investment StrategistA qualitative agent that synthesizes the quantitative numbers with broader market sentiment.  
+### 2. The Chief Investment Strategist. A qualitative agent that synthesizes the quantitative numbers with broader market sentiment.  
 Tools: Firecrawl semantic web scraping.  
 Capabilities: Scrapes the full markdown content of recent news and analyst ratings to understand the market narrative. It synthesizes this narrative with the Quant's hard numbers to formulate a final, reasoned 'Buy', 'Sell', or 'Hold' recommendation.  
 
